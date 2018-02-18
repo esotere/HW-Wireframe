@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: grey;
+  }
+  
+  header {
+    background: grey;
+    width:100%; 
+    padding: 40px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background: #333;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+
+  .floating-box {
+    display: inline-block;
+    border: 3px solid lightgray;
+    width: 85%;
+    height: 45px;
+    padding: 10px 0;
+    margin: 40px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background:lightgray;
+}
+
+.floating-box2 {
+    display: inline-block;
+    border: 3px solid lightgray;
+    width: 90%;
+    height: 45px;
+    padding: 0px 0;
+    margin: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background:lightgray;
+    
+}
+
+.inner-floating-box {
+    display: inline-block;
+    border: 3px solid lightgray;
+    width: 85%;
+    height: 55%;
+    padding: 23px 0;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: grey
+}
+
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+
+.inner-things{
+    /*display: inline-block; */
+    border: 3px solid lightgray;
+    content: lightgrey;
+    text-align: center;
+    width: 45%;
+    height: 300px;
+    float: left;
+    /* margin:  20px; */
+    margin-left: 80px;
+   /* margin-bottom: 20px; */
+    /*padding-block-start: 10px;*/
+    background:lightgray;
+    
+}
+
+.right-inner-things{
+    /*display: block;*/
+    border: 3px solid lightgray;
+    text-align: center;
+    width: 28%;
+    height: 300px;
+    float: right;
+    /* margin:  20px;
+    margin-top: 20px;*/
+    margin-right:59px;
+   /* margin-bottom: 20px; */
+    /*padding-block-start: 20px;*/
+    background:lightgray;
+    padding: 0 40px;
+    /*position: relative;*/
+    
+    
+}
+
+footer {
+    background: grey;
+    width:100%;
+    height: 50px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  
